@@ -1,0 +1,27 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "RotateSquare",
+  "main": "RS.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file": "^0.2.2",
+    "less-loader": "^3.0.0",
+    "loader": "^2.1.1",
+    "style-loader": "^0.14.1",
+    "uglifyjs-webpack-plugin": "^0.3.0",
+    "url-loader": "^0.5.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ScriptTao",
+  "license": "ISC"
+}

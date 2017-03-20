@@ -1,0 +1,67 @@
+* {
+	padding: 0px;
+	margin: 0px; 
+}
+.block {
+	position:absolute;
+	transform-style: preserve-3d;
+	/*border: 1px solid black;*/
+	width: 150px;
+	height: 150px;
+	top: 38%;
+	left: 50%;
+	margin-top: -75px;
+	margin-left: -75px;
+	-webkit-animation: Cube infinite 3s;
+    animation: Cube infinite 3s;
+}
+
+@keyframes Cube {
+    0% {
+        transform: translateZ(-50px) rotateX(0deg) rotateY(0deg);
+    }
+    50% {
+        transform: translateZ(-50px) rotateX(180deg) rotateY(180deg);
+    }
+    100% {
+        transform: translateZ(-50px) rotateX(360deg) rotateY(360deg); 
+    }
+}   
+
+.block div {
+	position:absolute;
+	width: 150px;
+	height: 150px;
+	/*border:1px solid red;*/
+	opacity: 0.5;
+
+}
+.qian {
+	transform: translateZ(75px);
+	background: orange;
+}
+
+.hou{
+	background: yellow;
+    transform: rotateX(180deg) translateZ(75px);  
+}
+
+.you {
+	background: indianred;
+    transform: rotateY(90deg) translateZ(75px);
+}
+
+.zuo {
+	background: olive;
+   	transform: rotateY(-90deg) translateZ(75px);
+}
+
+.shang {
+	background: greenyellow;
+    transform: rotateX(90deg) translateZ(75px);
+}
+
+.xia {
+	background: cornflowerblue;
+    transform: rotateX(-90deg) translateZ(75px);
+}
